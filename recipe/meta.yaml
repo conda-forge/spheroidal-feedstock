@@ -1,5 +1,5 @@
 {% set name = "spheroidal" %}
-{% set version = "0.0.1" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/spheroidal-{{ version }}.tar.gz
-  sha256: 5040c8a3a8768be5dc156171c85b6da5d034b3865ef1d517bd69fca6c2635c0c
+  sha256: 993efc4b24fddadc2b4145874997f004d7b3e67206e537e9852c71ba7ebe2682
 
 build:
   noarch: python
